@@ -1,0 +1,38 @@
+body {
+  background-color: #FFE199;
+}
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+  }
+  ul li {
+    list-style-type: none;
+    display: inline-block;
+    background-color: #00aee0;
+    padding: 10px 10px;
+    border-radius: 20px;
+    margin-left: 1rem 2rem;
+  }
+
+.text-box  {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+
